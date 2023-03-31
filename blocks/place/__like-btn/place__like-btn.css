@@ -2,7 +2,7 @@
   width: 22px;
   height: 19px;
   margin-left: 4px;
-  background-image: url('/images/icons/like.svg');
+  background-image: url('../../../images/icons/like.svg');
 }
 
 .place__like-btn:hover {
