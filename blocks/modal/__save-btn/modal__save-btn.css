@@ -1,0 +1,19 @@
+.modal__save-btn {
+  background: #000000;
+  border-radius: 2px;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding: 10px 0 14px;
+  margin-top: 18px;
+}
+@media (max-width: 767px) {
+  .modal__save-btn {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 17px;  
+    padding: 9px 0 12px;
+  }  
+}

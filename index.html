@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Место</title>
+    <meta name="description" content="Интерактивный проект Место">
+    <meta name="keywords" content="путешествия, достопримечательности, сервис, Россия, Mesto Russia">
+    <meta name="author" content="Каськов Петр Юрьевич">
+  </head>
+  <body class="page">
+
+    <div class="main_page">
+
+      <!-- Секция header  -->
+      <section class="header">
+        <img class ="header__logo" src ="./images/icons/logo.svg" alt ="Логотип_проекта">
+      </section>
+
+      <!-- Секция profile -->
+      <section class="profile">
+        <img class="profile__img" src="./images/kusto.jpg" alt="Жак-Ив-Кусто">
+        <div class="profile__title">
+          <h2 class="profile__name">
+            Жак-Ив Кусто
+            <button class="profile__edit-btn"></button>
+          </h2>
+          <p class="profile__info">Исследователь океана</p>
+        </div>
+        <div class="profile__add-card-btn">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 9.77778H12.2222V0H9.77778V9.77778H0V12.2222H9.77778V22H12.2222V12.2222H22V9.77778Z" fill="white"/>
+            </svg>            
+        </div>
+      </section>
+
+      <!-- Секция elements -->
+      <section class="places">
+        <div class="place">
+          <img class="place__image" src="./images/Kamchatka-geyzery.jpg" alt="Камчатка_гейзеры">
+          <div class="place__footer">
+              <p class="place__name">Камчатка</p>
+              <div class="place__like-btn"></div>
+          </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="./images/Komi-Menpupuner.jpg" alt="Коми_Маньпупуньер">
+          <div class="place__footer">
+              <p class="place__name">Коми Маньпупуньер</p>
+              <div class="place__like-btn"></div>
+          </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="./images/Ruskeala.jpg" alt="Парк__Рускеала">
+          <div class="place__footer">
+              <p class="place__name">Рускеала</p>
+              <div class="place__like-btn"></div>
+          </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="./images/Elbrus.jpg" alt="Гора_Эльбрус">
+          <div class="place__footer">
+              <p class="place__name">Эльбрус</p>
+              <div class="place__like-btn"></div>
+          </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="/images/Ozero-Elton.jpg" alt="Озеро__Эльтон">
+          <div class="place__footer">
+              <p class="place__name">Эльтон</p>
+              <div class="place__like-btn"></div>
+          </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="./images/Lenskiye stolby.jpg" alt=Ленсские__столбы">
+          <div class="place__footer">
+              <p class="place__name">Ленские Столбы</p>
+              <div class="place__like-btn"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Секция footer  -->
+      <section class="footer">
+        <p class="footer__text">© 2023 Mesto Russia</p>
+      </section>
+
+      <div class="modal modal--show-OFF modal-bg ">
+        <div class="modal__body">
+          <button class="modal__close-btn"></button>
+          <div class="modal__title">
+            Редактировать профиль
+          </div>
+          <form class="modal__form" action="">
+            <input type="text"  name="userName" value="Жак-Ив Кусто" placeholder="Имя профиля" class="modal__input">
+            <input type="text"  name="userInfo" value="Исследователь океана" placeholder="Описание профиля" class="modal__input">
+            <button class="modal__save-btn">Сохранить</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px 0;
+  margin-bottom: 66px;
+}
+
+@media (max-width: 767px) {
+  .places {
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+}

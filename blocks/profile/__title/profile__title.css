@@ -1,0 +1,10 @@
+.profile__title {
+  width: calc(100% - 300px);
+}
+
+@media (max-width: 767px) {
+  .profile__title {
+    width: 100%;
+    text-align: center;
+  }
+}

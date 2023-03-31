@@ -1,0 +1,59 @@
+@import url("../vendor/normalize.css");
+
+
+
+/*
+  подключение шрифтов
+*/
+
+@import url("../vendor/fonts.css"); 
+
+/* основная часть*/
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/main-page/main-page.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+
+/* Профиль */
+@import url("../blocks/profile/profile.css");
+@import url("../blocks/profile/__edit-btn/profile__edit-btn.css");
+@import url("../blocks/profile/__add-card-btn/profile__add-card-btn.css");
+@import url("../blocks/profile/__img/profile__img.css");
+@import url("../blocks/profile/__name/profile__name.css");
+@import url("../blocks/profile/__title/profile__title.css");
+@import url("../blocks/profile/__info/profile__info.css");
+
+/* Места */
+@import url("../blocks/places/places.css");
+
+/* Место */
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__footer/place__footer.css");
+@import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__name/place__name.css");
+@import url("../blocks/place/__like-btn/place__like-btn.css");
+@import url("../blocks/place/__like-btn/--active/place__like-btn--active.css");
+
+
+/* Футер */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__text/footer__text.css");
+
+
+
+
+/* Модальное окно */
+@import url("../blocks/modal/modal.css");
+@import url("../blocks/modal/--show/modal--show.css");
+@import url("../blocks/modal/__body/modal__body.css");
+@import url("../blocks/modal/__close-btn/modal__close-btn.css");
+@import url("../blocks/modal/__save-btn/modal__save-btn.css");
+@import url("../blocks/modal/__title/modal__title.css");
+@import url("../blocks/modal/__form/modal__form.css");
+@import url("../blocks/modal/__input/modal__input.css");
+
+
+
+

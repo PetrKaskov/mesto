@@ -1,0 +1,8 @@
+.place__footer {
+  background-color: #fff;
+  padding: 25px 20px;
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+}

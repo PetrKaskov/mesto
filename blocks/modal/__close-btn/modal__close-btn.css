@@ -1,0 +1,27 @@
+.modal__close-btn {
+  background-color: transparent;
+  background-image: url('/images/icons/close.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  padding: 2px;
+  width: 32px;
+  height: 32px;
+
+  border: none;
+  border-radius: 0;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(120%,-120%);
+}
+
+
+@media (max-width: 767px) {
+  .modal__close-btn {
+    width: 20px;
+    height: 20px;
+    transform: translate(0,-150%);
+   }
+}
