@@ -1,10 +1,12 @@
 .profile__title {
-  width: calc(100% - 300px);
+  width: calc(100% - 330px);
+  margin-right: 30px;
 }
 
 @media (max-width: 767px) {
   .profile__title {
     width: 100%;
     text-align: center;
+    margin-right: 0;
   }
 }

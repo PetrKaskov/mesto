@@ -1,14 +1,14 @@
 .header {
   padding-bottom: 41px;
-  border-bottom: 1px solid #545454;
-  margin: 45px 0 40px;
+  border-bottom: 1px solid rgb(84 84 84 / 0.7);
+  margin: 45px auto 40px;
+  max-width: 880px;
 }
 
 @media (max-width: 767px) {
   .header {
     padding-bottom: 31px;
-    margin: 27px -19px 42px;
-    width: 320px;
+    margin: 27px 0 42px;
   }
   
 }

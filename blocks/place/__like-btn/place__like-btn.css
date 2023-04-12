@@ -3,6 +3,9 @@
   height: 19px;
   margin-left: 4px;
   background-image: url('../../../images/icons/like.svg');
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .place__like-btn:hover {

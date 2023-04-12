@@ -1,0 +1,22 @@
+.page__main {
+  max-width: 880px;
+  margin:0 auto;
+}
+
+
+
+@media (max-width: 991px) {
+  .page__main {
+    padding: 0 19px;
+  }
+}
+
+@media (max-width: 767px) {
+.page__main {
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

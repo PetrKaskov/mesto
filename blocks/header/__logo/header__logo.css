@@ -1,7 +1,11 @@
-
-
-@media (max-width: 767px) {
+@media (max-width: 884px) {
   .header__logo {
     margin-left: 27px;
+  }  
+}
+@media (max-width: 767px) {
+  .header__logo {
+    width: 103px;
+    height: auto;
   }  
 }

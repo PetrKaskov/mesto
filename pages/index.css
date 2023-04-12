@@ -10,8 +10,7 @@
 
 /* основная часть*/
 @import url("../blocks/page/page.css");
-
-@import url("../blocks/main-page/main-page.css");
+@import url("../blocks/page/__main/page__main.css");
 
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
@@ -22,6 +21,7 @@
 @import url("../blocks/profile/__add-card-btn/profile__add-card-btn.css");
 @import url("../blocks/profile/__img/profile__img.css");
 @import url("../blocks/profile/__name/profile__name.css");
+@import url("../blocks/profile/__name-block/profile__name-block.css");
 @import url("../blocks/profile/__title/profile__title.css");
 @import url("../blocks/profile/__info/profile__info.css");
 
@@ -34,7 +34,7 @@
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__name/place__name.css");
 @import url("../blocks/place/__like-btn/place__like-btn.css");
-@import url("../blocks/place/__like-btn/--active/place__like-btn--active.css");
+@import url("../blocks/place/__like-btn/_active/place__like-btn_active.css");
 
 
 /* Футер */
@@ -53,6 +53,7 @@
 @import url("../blocks/modal/__title/modal__title.css");
 @import url("../blocks/modal/__form/modal__form.css");
 @import url("../blocks/modal/__input/modal__input.css");
+@import url("../blocks/popup/_opened/popup_opened.css");
 
 
 

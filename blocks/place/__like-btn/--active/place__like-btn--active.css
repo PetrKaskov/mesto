@@ -1,7 +1,0 @@
-.place__like-btn--active {
-  background-image: url('../../../images/icons/like-active.svg');
-}
-
-.place__like-btn--active:hover {
-  opacity: 1;
-}
