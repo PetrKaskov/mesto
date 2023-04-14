@@ -1,4 +1,4 @@
-.modal__body {
+.popup__body {
   width: 430px;
   height: 330px;
   background: #FFFFFF;
@@ -15,7 +15,7 @@
 
 
 @media (max-width: 767px) {
-  .modal__body {
+  .popup__body {
     width: calc(100% - 38px); 
     padding: 25px 22px;
     max-height: 322px;
