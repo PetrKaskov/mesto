@@ -6,15 +6,21 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  padding: 10px 0 14px;
-  margin-top: 18px;
+  padding: 14px 0 14px;
   border: none;
+  margin: 48px 0 1px 0;
+  cursor: pointer;
 }
+
+.popup__save-btn:hover {
+  opacity: 0.6;
+  }
+
 @media (max-width: 767px) {
   .popup__save-btn {
-    margin-top: 15px;
+    margin: 45px 0 3px 0;
     font-size: 14px;
-    line-height: 17px;  
-    padding: 9px 0 12px;
+    line-height: 18px;  
+    padding: 14px 0 14px;
   }  
 }
