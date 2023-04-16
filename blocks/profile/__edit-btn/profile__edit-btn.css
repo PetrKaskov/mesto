@@ -11,6 +11,7 @@
   margin-top: auto;
   margin-bottom: 8px;
   cursor: pointer;
+  align-self: flex-end;
 }
 
 .profile__edit-btn:hover {
